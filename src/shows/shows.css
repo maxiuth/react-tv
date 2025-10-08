@@ -1,5 +1,6 @@
 .shows {
   display: flex;
+  flex-direction: row;
 }
 
 .show {
@@ -25,4 +26,14 @@
   .show-details {
     grid-template-columns: minmax(30ch, auto) 1fr;
   }
+}
+
+li {
+  list-style: none;
+  /* display: flex; */
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
 }
